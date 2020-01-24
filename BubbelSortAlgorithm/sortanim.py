@@ -15,7 +15,7 @@ def anim(i):
 
 	plt.cla() #plot clear axis
 
-	plt.bar(x, y, label='BubbelSort Algorithm')
+	plt.bar(x, y,color='#960b92', label='BubbelSort Algorithm')
 	plt.legend(loc='upper left')
 	plt.tight_layout()
 
