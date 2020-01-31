@@ -20,7 +20,7 @@ def anim(i):
 	plt.tight_layout()
 
 
-ani = FuncAnimation(plt.gcf(), anim, interval=1100)
+ani = FuncAnimation(plt.gcf(), anim, interval=1000)
 
 plt.tight_layout()
 plt.show()
